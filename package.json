@@ -1,0 +1,23 @@
+{
+  "name": "supertestapi",
+  "version": "1.0.0",
+  "description": "repo to see what supertest is",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/*.spec.js'"
+  },
+  "keywords": [
+    "supertest",
+    "api",
+    "nock"
+  ],
+  "author": "elhispanopolako",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^8.4.0",
+    "nock": "^13.3.0",
+    "supertest": "^6.3.3"
+  }
+}
